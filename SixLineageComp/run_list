@@ -1,0 +1,502 @@
+set description SA-reaction-long
+set email anyaejo@msu.edu
+set freq_email Job
+#set priority 3
+#set class_pref 6,7
+#set max_cpus 50
+set config_dir config
+
+set class_pref 99
+set walltime 120
+set mem_request 3
+set ppn 1
+
+#
+#Original:
+#
+
+#51..80 10k-u-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 10k-u-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 10k-u-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+61 10k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+69 10k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+74 10k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 1k-u-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 5k-u-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+55 5k-u-002-long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+70 5k-u-002-long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+80 5k-u-002-long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 10k-r-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+76 10k-r-002-long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 5k-u-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+52 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+54 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+57 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+59 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+66 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+71 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+74 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+79 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+80 5k-u-0002-long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 5k-u-02 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 5k-u-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 1k-u-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 j avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 1k-u-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 10k-r-02 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 10k-r-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 10k-r-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 1k-r-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 1k-r-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 o avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 1k-r-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 5k-r-0002 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 5k-r-002 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#51..80 r avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 5k-r-01 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "ABCDEF" -set REQUIRED_REACTION 9
+
+#
+#Long:
+#
+
+#61 c_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#74 c_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#77 c_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#56 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#60 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#67 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#70 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#78 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#80 e_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#52 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#54 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#57 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#59 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#66 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#71 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#74 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#75 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#80 g_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 f_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#60 e_perm_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg 
+
+#61 e_perm_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg 
+
+#65 e_perm_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg 
+
+#69 e_perm_long avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg 
+
+#53 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#58 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#66 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#75 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#78 g_perm_long avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1-long.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#57 c_perm_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 c_perm_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#73 c_perm_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#56 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#64 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#66 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#80 c_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#54 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 g_perm2_longerer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 g_perm2_500k avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-500k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#66 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#67 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#75 g_perm2_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#68 e_perm2_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 e_perm2_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#73 e_perm2_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#77 e_perm2_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#53 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#57 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#59 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#67 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#68 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#72 g_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#72 g_perm3_300k avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#65 c_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 c_perm3_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 c_perm3_300k avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#55 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#56 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#59 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#59 e_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#63 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#63 e_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#68 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#68 e_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 e_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 e_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#74 a_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#74 a_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#77 a_perm3_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#77 a_perm3_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#53 g_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#61 g_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#69 g_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#71 g_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#53 e_perm4_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#54 e_perm4_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#72 e_perm4_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#80 e_perm4_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#78 c_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 c_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#56 c_perm4_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#55 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#58 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#60 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#62 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#78 g_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#79 e_perm5_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#57 e_perm5_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#57 e_perm5_300k avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-300k.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51 e_perm5_longer avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51 c_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#76 c_perm5_longer avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm5-longer.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#
+#Permutations
+#
+
+#51..80 e_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 g_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 h_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 p_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 q_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 r_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+
+#51..80 a_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 b_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 c_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 d_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 f_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 i_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 j_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 k_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 l_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 m_perm avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 n_perm avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 o_perm avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm1.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#
+##Permutation 2 ##
+#
+
+#51..80 a_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 b_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 c_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 d_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 f_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 i_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 j_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#78 k_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 l_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 m_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 n_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 o_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 e_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 g_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 h_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 p_perm2 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 q_perm2 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 r_perm2 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm2.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#
+## Permutation 3 ##
+#
+
+#51..80 a_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 b_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 c_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 d_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 f_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 i_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 j_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 k_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 l_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 m_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 n_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 o_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 e_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 g_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 h_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 p_perm3 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 q_perm3 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 r_perm3 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm3.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+## Perm 4 ##
+
+#51..80 a_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 b_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 c_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 d_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 f_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 i_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 j_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 k_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 l_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 m_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 n_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 o_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 e_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 g_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 h_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 p_perm4 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 q_perm4 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 r_perm4 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm4.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+## Perm 5 ##
+
+
+#51..80 a_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 b_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 c_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 d_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 f_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 i_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 j_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 k_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 l_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-10k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 m_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 n_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 o_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 40 -set WORLD_Y 25 -set EVENT_FILE events-1k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 e_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 g_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 h_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-u-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 p_perm5 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 q_perm5 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
+
+#51..80 r_perm5 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-5k-r-perm5.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg
