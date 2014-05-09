@@ -1,0 +1,74 @@
+set description inclusivity-intmut2
+set email anyaejo@msu.edu
+set freq_email Job
+#set priority 3
+#set class_pref 6,7
+#set max_cpus 50
+set config_dir config
+
+set class_pref 99
+set walltime 100
+set mem_request 3
+set ppn 1
+
+# Two lineage competitions
+
+#51..80 5k-r-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-r-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-r-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-r-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-r-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-r-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-u-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-u-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-u-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-u-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-u-002-50 avida -s $seed -set COPY_MUT_PROB .002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-u-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-u-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-u-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-u-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-u-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 5k-u-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-u-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-r-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-r-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-r-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-r-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-u-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-u-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-u-0002-50 avida -s $seed -set COPY_MUT_PROB .0002 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-u-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-u-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-u-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-u-02-50 avida -s $seed -set COPY_MUT_PROB .02 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-u-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-u-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-u-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-u-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-u-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 1k-r-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+#51..80 10k-r-01-50 avida -s $seed -set COPY_MUT_PROB .01 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 1k-r-006-50 avida -s $seed -set COPY_MUT_PROB .006 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 5k-r-006-50 avida -s $seed -set COPY_MUT_PROB .006 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 10k-r-006-50 avida -s $seed -set COPY_MUT_PROB .006 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 1k-r-0008-50 avida -s $seed -set COPY_MUT_PROB .0008 -set WORLD_X 25 -set WORLD_Y 40 -set EVENT_FILE events-r-small-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 5k-r-0008-50 avida -s $seed -set COPY_MUT_PROB .0008 -set WORLD_X 100 -set WORLD_Y 50 -set EVENT_FILE events-r-5k-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
+
+51..80 10k-r-0008-50 avida -s $seed -set COPY_MUT_PROB .0008 -set WORLD_X 100 -set WORLD_Y 100 -set EVENT_FILE events-r-big-50.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set REQUIRED_REACTION 9 -set KABOOM_RADIUS 2 -set KABOOM_HAMMING 0 -set KABOOM5_HAMMING 5 -set KABOOM_PROB .05 -set NO_MUT_INSTS "BC"
