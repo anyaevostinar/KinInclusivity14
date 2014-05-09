@@ -1,0 +1,31 @@
+set description hd-rerun
+set email anyaejo@msu.edu
+set freq_email Job
+#set priority 3
+#set class_pref 6,7
+#set max_cpus 50
+set config_dir config
+
+set class_pref 99
+set walltime 80
+set mem_request 3
+set ppn 1
+
+# Adjustable HD
+#51..80 5k-02 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 50 -set COPY_MUT_PROB .02
+
+#51..80 5k-002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 50 -set COPY_MUT_PROB .002
+
+#51..80 5k-0002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 50 -set COPY_MUT_PROB .0002
+
+51..80 10k-002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 100 -set COPY_MUT_PROB .002
+
+51..80 1k-0002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 25 -set WORLD_Y 40 -set COPY_MUT_PROB .0002
+
+51..80 1k-002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 25 -set WORLD_Y 40 -set COPY_MUT_PROB .002
+
+51..80 10k-0002 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 100 -set COPY_MUT_PROB .0002
+
+51..80 1k-02 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 25 -set WORLD_Y 40 -set COPY_MUT_PROB .02
+
+51..80 10k-02 avida -s $seed -set EVENT_FILE events.cfg -c avida.cfg -def INST_SET instset-heads.cfg -set ENVIRONMENT_FILE environment.cfg -set WORLD_X 100 -set WORLD_Y 100 -set COPY_MUT_PROB .02
