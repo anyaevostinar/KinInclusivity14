@@ -17,7 +17,7 @@ nop-A      #
 nop-A      #
 nop-A      #
 nop-A      #
-kazi5      #
+explode5
 nop-X      #
 nop-X
 nop-X      #

@@ -5,21 +5,21 @@ h-alloc    # Allocate space for child
 h-search   # Locate the end of the organism
 nop-C      #
 nop-A      #
-mov-head   # Place write-head at beginning of offspring.
+mov-head   # Place write-head at beginning of offspring
 nop-C      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+nop-A      #
+kazi5      #
 nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X      #
-nop-X     #
-explode
-nop-X      #
-nop-X      #
+nop-X
 nop-X      #
 nop-X      #
 nop-X      #
